@@ -195,7 +195,6 @@ nav {
 
 .profile-content img {
     border-radius: 50%;
-
 }
 
 .profile-content h6, p {
@@ -206,6 +205,35 @@ nav {
 
 .profile-content p {
     color: #25243246;
+}
+
+/* focus styles */
+.focus {
+    text-align: center;
+    width: 1140px;
+    height: 697px;
+    background-color: white;
+    margin: 0 auto 92px;
+    border-radius: 14px;
+    padding: 71px 150px;
+}
+.focus-title {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.focus-sub-title {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--text-dark-light);
+}
+.font-change {
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.focus img {
+    border-radius: 48px;
 }
 
 /* footer styles */
