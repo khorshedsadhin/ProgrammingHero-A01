@@ -236,6 +236,48 @@ nav {
     border-radius: 48px;
 }
 
+/* newsletter styles */
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 71px 0;
+    width: 1140px;
+    height: 632px;
+}
+.newsletter-title {
+    font-size: 97px;
+    font-weight: bold;
+}
+.newsletter form {
+    width: 497px;
+    height: 490px;
+
+}
+.newsletter form label {
+    display: block;
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.newsletter form input, textarea {
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 19px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    padding: 20px 32px;
+}
+.newsletter form textarea {
+    height: 135px;
+    resize: none;
+}
+.width-change {
+    width: 100%;
+}
+
 /* footer styles */
 footer {
     text-align: center;
