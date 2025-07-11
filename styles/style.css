@@ -4,6 +4,7 @@
     --text-dark: #252432;
     --text-dark-light: #25243280;
     --bg-color: #F5F8FF;
+    --users-section-bg: #4e47ff1a;
     --secondary-font: "Inter", sans-serif;
 }
 .raleway-normal {
@@ -96,4 +97,42 @@ nav {
     border-radius: 48px;
     width: 403px;
     height: 328px;
+}
+
+/* productive users styles */
+.productive-users {
+    background-color: var(--users-section-bg);
+    width: 1140px;
+    height: 306px;
+    margin: 0 auto 137px;
+    padding: 50px 80px;
+    border-radius: 24px;
+}
+
+.users-title {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.users-containers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-stat {
+    color: var(--primary-color);
+    font-family: var(--secondary-font);
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container-sub-title {
+    color: var(--text-dark-light);
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
 }
