@@ -116,7 +116,7 @@ nav {
     margin-bottom: 40px;
 }
 
-.users-containers {
+.users-container {
     display: flex;
     justify-content: space-around;
 }
@@ -135,4 +135,75 @@ nav {
     font-size: 20px;
     font-weight: normal;
     text-align: center;
+}
+
+/* review section styles */
+.review {
+    width: 1140px;
+    height: 342px;
+    margin: 0 auto 137px;
+}
+
+.review h3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.review-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 367px;
+    height: 243px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
+    border: 1px solid #F2EDED;
+    padding: 24px;
+}
+
+.stars {
+    display: flex;
+    gap: 4px;
+}
+.star {
+    background-image: url("../Assets/star-solid.svg");
+    width: 22px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-title {
+    margin-top: 24px;
+    font-family: var(--secondary-font);
+}
+.card-sub-title {
+    margin-top: 8px;
+    font-family: var(--secondary-font);
+    font-weight: 300;
+    width: 75%;;
+}
+
+.profile {
+    margin-top: 24px;
+    display: flex;
+    gap: 12px;
+    align-items: center ;
+}
+
+.profile-content img {
+    border-radius: 50%;
+
+}
+
+.profile-content h6, p {
+    font-size: 16px;
+    font-family: var(--secondary-font);
+    color: var(--text-dark-light);
+}
+
+.profile-content p {
+    color: #25243246;
 }
